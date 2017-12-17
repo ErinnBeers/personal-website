@@ -42,3 +42,53 @@ a:visited {
 ul li a:hover {
   color: tomato;
 }
+
+h2 {
+  margin-top: 150px;
+  margin-left: 50px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 60px;
+}
+
+.left-column {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 50%;
+  padding: 20px;
+  background-color: wheat;
+  border-radius: 4px;
+  display: block;
+  margin-left: 50px;
+  margin-top: 25px;
+  }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid DarkSeaGreen;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #fff;
+}
+
+input[type=submit] {
+  background-color: salmon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+input[type=submit]:hover {
+  background-color: tomato;
+  }
+
+}

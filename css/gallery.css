@@ -45,7 +45,6 @@ ul li a:hover {
 
 .gallery-images {
   text-align: center;
-  /*border: 10px solid grey;*/
   box-sizing: border-box;
   margin-top: 100px;
 }
@@ -54,5 +53,9 @@ ul li a:hover {
   height: 400px;
   max-width: 100%;
   vertical-align: middle;
-  margin: 10px;
+  margin: 15px;
+}
+
+img:hover {
+  opacity: 0.5;
 }
