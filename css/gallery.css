@@ -9,6 +9,7 @@ body {
   height: 100vh;
   background-image: url("../images/stardust.png");
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 nav {
