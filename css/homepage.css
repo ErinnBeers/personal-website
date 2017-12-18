@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 
 html, body, ul {
   margin: 0;
@@ -43,20 +46,34 @@ ul li a:hover {
   color: tomato;
 }
 
-.left-column {
-  width: 50%;
-  min-height: 1000px;
-  float: left;
-  box-sizing: border-box;
-  /* position: fixed; */
+h2 {
+  margin-top: 150px;
+  margin-left: 50px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 60px;
+  position: fixed;
 }
 
-.right-column {
-  width: 40%;
-  height: 1000px;
+h5 {
+  text-align: right;
+  font-size: 16px;
+}
+
+.left-column {
+  width: 50%;
+  height: 1100px;
   float: left;
   box-sizing: border-box;
-  margin-top: 800px;
+}
+
+.middle-column {
+  width: 25%;
+  height: 1100px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 750px;
 }
 
 .text-box {
@@ -65,14 +82,15 @@ ul li a:hover {
   width: 40%;
   background-color: #ffffff;
   opacity: 0.3;
-  margin: 150px 0px 0px 50px;
-  padding: 40px;
+  margin: 250px 0px 100px 50px;
+  padding: 30px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .thought-bubble-1 {
 	position: relative;
-  display:inline-block;
+  display: inline-block;
   max-width:250px;
   min-height:1.5em;
   padding: 20px;
@@ -82,7 +100,8 @@ ul li a:hover {
   font-size: 35px;
   color: white;
   opacity: 0.7;
-  margin: 0 auto;
+  margin-left: 20px;
+  box-sizing: border-box;
 }
 
 .thought-bubble-1:after {
@@ -98,6 +117,7 @@ ul li a:hover {
 	border-right: 0;
 	margin-left: -10px;
 	margin-bottom: -20px;
+  box-sizing: border-box;
 }
 
 .thought-bubble-2 {
@@ -111,8 +131,9 @@ ul li a:hover {
   font-family: 'Amatic SC', cursive;
   font-size: 35px;
   color: white;
-  margin: 200px 0px 0px 30px;
+  margin: 200px 0px 0px 0px;
   opacity: 0.7;
+  box-sizing: border-box;
 }
 
 .thought-bubble-2:after {
@@ -127,6 +148,7 @@ ul li a:hover {
 	border-right: 0;
 	margin-top: -20px;
 	margin-right: -20px;
+  box-sizing: border-box;
 }
 
 .thought-bubble-3 {
@@ -140,8 +162,9 @@ ul li a:hover {
   font-family: 'Amatic SC', cursive;
   font-size: 35px;
   color: white;
-  margin: 200px 0px 0px 0px;
+  margin: 200px 0px 100px 10px;
   opacity: 0.7;
+  box-sizing: border-box;
 }
 
 .thought-bubble-3:after {
@@ -157,12 +180,123 @@ ul li a:hover {
 	border-top: 0;
 	margin-top: -10px;
 	margin-right: -20px;
+  box-sizing: border-box;
+}
+
+.right-column {
+  width: 25%;
+  height: 1100px;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 900px;
+}
+
+.r-thought-bubble-1 {
+  position: relative;
+  display:inline-block;
+  max-width:250px;
+  min-height:1.5em;
+  padding: 20px;
+	background: #e9d460;
+	border-radius: .4em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.r-thought-bubble-1:after {
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #e9d460;
+	border-left: 0;
+	margin-top: -20px;
+	margin-left: -20px;
+  box-sizing: border-box;
+}
+
+.r-thought-bubble-2 {
+  position: relative;
+  display:inline-block;
+  max-width:250px;
+  min-height:1.5em;
+  padding: 20px;
+	background: #dcc6e0;
+	border-radius: .4em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  color: white;
+  opacity: 0.7;
+  margin: 150px 0px 0px 30px;
+  box-sizing: border-box;
+}
+
+.r-thought-bubble-2:after {
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #dcc6e0;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+  box-sizing: border-box;
+}
+
+.r-thought-bubble-3 {
+  position: relative;
+  display: inline-block;
+  max-width:250px;
+  min-height:1.5em;
+  padding: 20px;
+	background: #019875;
+	border-radius: .4em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  color: white;
+  opacity: 0.7;
+  margin: 200px 0px 100px 10px;
+  box-sizing: border-box;
+}
+
+.r-thought-bubble-3:after {
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #019875;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+  box-sizing: border-box;
 }
 
 .erinn {
   position: fixed;
   bottom: 0;
-  right: 0;
-  height: 400px;
+  /* right: 0; */
+  width: 400px;
+  z-index: 4;
+  margin-left: 400px;
+}
 
+.kitten {
+  width: 150px;
+  margin-left: 380px;
+  box-sizing: border-box;
 }

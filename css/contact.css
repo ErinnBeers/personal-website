@@ -57,12 +57,13 @@ h2 {
 }
 
 .form {
-  width: 50%;
+  width: 70%;
   padding: 20px;
   background-color: wheat;
+  opacity: 0.7;
   border-radius: 4px;
   display: block;
-  margin-left: 50px;
+  margin-left: 90px;
   margin-top: 25px;
   }
 
